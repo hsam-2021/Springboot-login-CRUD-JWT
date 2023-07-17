@@ -5,19 +5,12 @@
 ```
 https://github.com/ScarlettZ842/Spring-Boot-Security-CURD-JWT-MySQL.git
 ```
-## 2. Run the App from Front-end by using follwing command
+## 2. Create the MySQL Database and change the root username & password accordingly.
+## 3. Run the App as a Spring boot project.
 ```
-npm install & npm start
-```
-## 3. Create the MySQL Database and change the root username & password 
-```
-create database user_app
+create database assignment_spring
 ```
 open src/main/resources/application.properties file to change the username and password
-## 4.  Run the App from Back-end by using follwing command
-```
-mvn spring-boot:run
-```
 ## Once the Application started successfully then you can test the functions or call endpoints
 
 ## 5. For users to signup or login(create new users) or signout with POST Request
