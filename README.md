@@ -11,22 +11,30 @@ https://github.com/ScarlettZ842/Spring-Boot-Security-CURD-JWT-MySQL.git
 create database assignment_spring
 ```
 open src/main/resources/application.properties file to change the username and password
-## Once the Application started successfully then you can test the functions or call endpoints
+## Some Screenshots of the application 
+### registration page
+![image](https://github.com/hsam-2021/Springboot-login-CRUD-JWT/assets/94940146/7824d4ed-0f5f-4463-b4f3-7d4807e453b7)
+### login page after registration
+![image](https://github.com/hsam-2021/Springboot-login-CRUD-JWT/assets/94940146/732163c7-48a5-4e45-a285-933e535be613)
+### Landing page after logging in
+![image](https://github.com/hsam-2021/Springboot-login-CRUD-JWT/assets/94940146/71e5c9ce-604a-4f78-bda5-4ec89fa4f85d)
 
-## 5. For users to signup or login(create new users) or signout with POST Request
+## Once the Application started successfully then you can test the functions or call endpoints
+## 5. Some endpoint URLs for CRUD operations:
+
+#### Getting all users
 ```
-http://localhost:8080/signup
+http://localhost:8080/api/users
 ```
+#### Getting user by ID
 ```
-http://localhost:8080/signin
+http://localhost:8080/api/users/{id}
 ```
+#### Updating user by ID
 ```
-http://localhost:8080/signout
+http://localhost:8080/api/users/{id}
 ```
-## 6. To get the public resource without user login with GET Request
-```
-http://localhost:8080/api/test/user
-```
-## 7. To delete the existed user with DELETE Request
+#### 7. To delete the existing user with DELETE Request
 ```
 http://localhost:8080/api/test/user/<id>
+```
