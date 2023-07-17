@@ -1,7 +1,6 @@
 # Springboot-login-CRUD-JWT
 ## Spring-Boot-Security-CURD-JWT-MySQL ## This is a simple App with the user login/signup and logout functions, the App is built with the Sprint Boot implementing Spring Security, CURD operations, MySQL database and JWT
-![Screen Shot 2023-04-17 at 21 42 51](https://user-images.githubusercontent.com/66295998/232647995-5d621121-6ec7-44fa-a0c3-84f2ca11fd83.png)
-![Screen Shot 2023-04-17 at 21 16 08](https://user-images.githubusercontent.com/66295998/232648013-54da9b9e-2fe6-4fbc-a62f-0c1d0888ccf7.png)
+
 ## 1. You can clone it from github by running following command
 ```
 https://github.com/ScarlettZ842/Spring-Boot-Security-CURD-JWT-MySQL.git
