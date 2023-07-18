@@ -8,7 +8,7 @@ https://github.com/ScarlettZ842/Spring-Boot-Security-CURD-JWT-MySQL.git
 ## 2. Create the MySQL Database and change the root username & password accordingly.
 ## 3. Run the App as a Spring boot project.
 ```
-create database assignment_spring
+create database assignment_sprinboot
 ```
 open src/main/resources/application.properties file to change the username and password
 ## Some Screenshots of the application 
