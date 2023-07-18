@@ -22,19 +22,33 @@ open src/main/resources/application.properties file to change the username and p
 ## Once the Application started successfully then you can test the functions or call endpoints
 ## 5. Some endpoint URLs for CRUD operations:
 
-#### Getting all users
+#### Creating a new user using POST method
+
 ```
 http://localhost:8080/api/users
 ```
+![image](https://github.com/hsam-2021/Springboot-login-CRUD-JWT/assets/94940146/4b8f5ba9-e137-4f39-aa63-09719189ebac)
+
+#### Getting all users using GET
+```
+http://localhost:8080/api/users
+```
+![image](https://github.com/hsam-2021/Springboot-login-CRUD-JWT/assets/94940146/990a9efe-a885-46ed-a9a5-8a30c68b3b53)
+
 #### Getting user by ID
 ```
 http://localhost:8080/api/users/{id}
 ```
+![image](https://github.com/hsam-2021/Springboot-login-CRUD-JWT/assets/94940146/01480f6d-276d-49f3-9a78-3854241c74ed)
+
 #### Updating user by ID
 ```
 http://localhost:8080/api/users/{id}
 ```
+![image](https://github.com/hsam-2021/Springboot-login-CRUD-JWT/assets/94940146/ff70945e-b14e-41ce-b0ac-9e6c2b93aa08)
+
 #### 7. To delete the existing user with DELETE Request
 ```
 http://localhost:8080/api/test/user/<id>
 ```
+![image](https://github.com/hsam-2021/Springboot-login-CRUD-JWT/assets/94940146/3e31f778-3225-42dc-a5a3-78df8940325a)
